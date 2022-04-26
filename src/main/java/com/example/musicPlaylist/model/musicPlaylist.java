@@ -13,25 +13,25 @@ import javax.persistence.Table;
 	        
 	        @Id
 	        @GeneratedValue(strategy = GenerationType.AUTO)
-	        @Column(name="id")
+	        @Column(name="Id")
 	            private Long id;
 	        
 			@Column(name="Name")
-	        private String Name;
+	        private String name;
 	        
 	        @Column(name="Genre")
-	        private String Genre;
+	        private String genre;
 	        
 	        @Column(name="Artist")
-	        private String Artist;
+	        private String artist;
 	        
-	        @Column(name="duration_in_seconds")
-	        private int DurationInSeconds;
+	        @Column(name="Duration_in_seconds")
+	        private int durationInSeconds;
 
 			@Override
 			public String toString() {
-				return "musicPlaylist [id=" + id + ", Name=" + Name + ", Genre=" + Genre + ", Artist=" + Artist
-						+ ", DurationInSeconds=" + DurationInSeconds + "]";
+				return "musicPlaylist [id=" + id + ", Name=" + name + ", Genre=" + genre + ", Artist=" + artist
+						+ ", DurationInSeconds=" + durationInSeconds + "]";
 			}
 
 			public Long getId() {
@@ -43,44 +43,44 @@ import javax.persistence.Table;
 			}
 
 			public String getName() {
-				return Name;
+				return name;
 			}
 
 			public void setName(String name) {
-				Name = name;
+				this.name = name;
 			}
 
 			public String getGenre() {
-				return Genre;
+				return genre;
 			}
 
 			public void setGenre(String genre) {
-				Genre = genre;
+				this.genre = genre;
 			}
 
 			public String getArtist() {
-				return Artist;
+				return artist;
 			}
 
 			public void setArtist(String artist) {
-				Artist = artist;
+				this.artist = artist;
 			}
 
 			public int getDurationInSeconds() {
-				return DurationInSeconds;
+				return durationInSeconds;
 			}
 
 			public void setDurationInSeconds(int durationInSeconds) {
-				DurationInSeconds = durationInSeconds;
+				this.durationInSeconds = durationInSeconds;
 			}
 
 			public musicPlaylist(Long id, String name, String genre, String artist, int durationInSeconds) {
 				super();
 				this.id = id;
-				Name = name;
-				Genre = genre;
-				Artist = artist;
-				DurationInSeconds = durationInSeconds;
+				this.name = name;
+				this.genre = genre;
+				this.artist = artist;
+				this.durationInSeconds = durationInSeconds;
 			}
 
 			public musicPlaylist() {
