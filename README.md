@@ -22,7 +22,7 @@
     <li>Install on of the 3 IDE's to run a Java Project</li>
     <li>If Eclipse is installed then JDK v17.0.2 has to be installed to use the most up to date libraries</li>
     <li><a href="https://www.youtube.com/watch?v=23FrsQiCBhA">Installing Java JDK</a></li>
-    <li><p>Spring Boot is installed with the most up to date packages</p></li>
+    <li><a Spring Boot is installed with the most up to date packages</a></li>
    <li><a href="https://www.youtube.com/watch?v=ZJ7afDSrb3s">How to Create and Setup Spring Boot Project in Eclipse IDE</a></li>
   </ol>
   
