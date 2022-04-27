@@ -12,6 +12,14 @@
      - [Spring Boot](https://spring.io/projects/spring-boot)
   <br>
      - [JDK v17.0.2](https://www.oracle.com/java/technologies/downloads/#jdk18-windows)
+     <br>
+     - [Spring Boot](https://spring.io/guides/gs/spring-boot/)
+      <br>
+     - [Java Persistence API](https://www.oracle.com/java/technologies/persistence-jsp.html)
+      <br>
+     - [JUnit testing](https://www.oracle.com/technical-resources/articles/adf/essentials-part5.html)
+     <br>
+     - [Postman](https://www.postman.com/)
 
     
  ## Description
