@@ -25,7 +25,7 @@ import javax.persistence.Table;
 	        @Column(name="Artist")
 	        private String artist;
 	        
-	        @Column(name="Duration_in_seconds")
+	        @Column(name="duration_in_seconds")
 	        private int durationInSeconds;
 
 			@Override
