@@ -24,6 +24,10 @@
     <li><a href="https://www.youtube.com/watch?v=23FrsQiCBhA">Installing Java JDK</a></li>
     <li> Spring Boot is installed with the most up to date packages</li>
    <li><a href="https://www.youtube.com/watch?v=ZJ7afDSrb3s">How to Create and Setup Spring Boot Project in Eclipse IDE</a></li>
+   <li> MySQL is installed as your database</li>
+   <li><a href="https://www.youtube.com/watch?v=t6NQtfokZr8">How to Create and Setup MySQL database</a></li>
+   <li> Postman is installed to run API calls and update content in the database</li>
+   <li><a href="https://www.youtube.com/watch?v=MCPdfuzmyxY">How To Download and Install Postman In Windows</a></li>
   </ol>
   
   
